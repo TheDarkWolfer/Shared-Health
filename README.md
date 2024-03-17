@@ -24,4 +24,5 @@ There are a few more things other than the shared health bar, which are listed b
 If you wish to reset the global health pool, run `scoreboard players set @a globalHP 50000`
 You'll need to ensure all players are present when you install the datapack, else you'll need to manually
 sync all the health counters (which you can do using the aforementionned `scoreboard` command)
-I'll provide an uninstall script later, 
+
+To remove the datapack, you can first run `function shared_health:uninstall` script to remove the scoreboards, bossbars, and similar.
